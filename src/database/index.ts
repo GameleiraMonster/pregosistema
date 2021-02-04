@@ -1,6 +1,6 @@
-//arquivo onde vai se refeito a conexão com o banco de dados 
+//arquivo onde vai se refeito a conexão com o banco de dados
 
-import{createConnection} from 'typeorm';
+import { createConnection } from "typeorm";
 
 //vai procurar em todo o projeto ormconfig.json, vai ler o arquivo e vai fazer a conexão
 createConnection();
